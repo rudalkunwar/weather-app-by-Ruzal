@@ -29,7 +29,7 @@ class App extends Component {
   }
 
   fetchWeatherData = async () => {
-    const url = `https://api.openweathermap.org/data/2.5/weather?q=${this.state.city}&appid={your api id hahahahah}&units=metric`;
+    const url = `https://api.openweathermap.org/data/2.5/weather?q=${this.state.city}&appid=a1c0185292e4465036fba62c7eabf7a6&units=metric`;
 
     try {
       const response = await fetch(url);
